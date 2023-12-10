@@ -1,0 +1,11 @@
+{
+    "name": "janhavi",
+    "score": 33.44,
+    "isAdmin": false,
+    "license": null,
+    "shop": ["food", "clothes", "sunflower"],
+    "obj": {
+        "name": "nested",
+        "mrk": 65
+    }
+}
