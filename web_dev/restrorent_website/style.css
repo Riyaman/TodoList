@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page-first {
+    background-color: orange;
+    height: 559px;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 230px;
+    margin-left: 44px;
+}
+
+.appe {
+    margin: 12px 0px 12px 30px;
+}
+
+.second-heading {
+    color: rgb(252, 208, 124);
+    font-size: 33px;
+    margin-top: 13px;
+    margin-left: 44px;
+}
+
+.bg-2 {
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: url('Order.png') no-repeat center center/cover;
+}
+
+.carts {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-1 {
+    max-width: 30%;
+    margin-left: 33px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.currency {
+    color: rgb(21, 138, 248);
+}
+
+.qunt {
+    margin-left: 17px;
+    width: 20%;
+    height: 23px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+#onion {
+    height: 251px;
+    width: 100%;
+}
+
+.heading {
+    padding: 15px 10px 0px 14px;
+}
+
+.Quantity {
+    margin-top: 12px;
+    margin-left: 16px;
+}
+
+.cart-2 {
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+#rolls {
+    width: 100%;
+}
+
+.para {
+    color: black;
+    font-size: 23px;
+}
+
+.cart-3 {
+    margin-right: 29px;
+    max-width: 30%;
+    max-height: 50%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+#ancho {
+    height: 251px;
+}
+
+.form-2 {
+    padding: 70px 50px 12px 50px;
+    display: flex;
+    align-items: center;
+    max-width: 150%;
+}
+
+.name {
+    margin-left: 100px;
+}
+
+.first-name {
+    margin-left: 262px;
+    height: 23px;
+    font-size: 22px;
+    padding: 13px 13px 13px 13px;
+    margin-right: 22px;
+}
+
+.last-name {
+    height: 23px;
+    font-size: 22px;
+    padding: 13px 13px 13px 13px;
+}
+
+.label-1 {
+    font-size: 33px;
+    margin-left: 470px;
+}
+
+.label-2 {
+    font-size: 33px;
+    margin-left: 190px;
+}
+
+.name-1 {
+    margin-left: 147px;
+}
+
+.email {
+    height: 23px;
+    font-size: 22px;
+    margin-left: 470px;
+    padding: 13px 13px 13px 13px;
+}
+
+.label-3 {
+    margin-left: 480px;
+    margin-top: 12px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 33px;
+    background-color: grey;
+}

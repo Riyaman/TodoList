@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    /* text-align: center; */
+    height: 20px;
+}
+.navbar {
+    height: 35px;
+    background-color: rgb(16, 15, 15);
+    display: flex;
+    align-items: center;
+  justify-content: space-evenly;
+}
+.first-nav {
+    background-color: #2120204a;
+    display: flex;
+  
+    height: 25px;
+}
+
+.sec-nav {
+    background-color: #2120204a;
+    display: flex;
+    
+    height: 25px;
+ 
+
+}
+.li1 {
+   
+    color: white;
+    margin: 0px 12px;
+    list-style: none;
+}
+.li2 {
+  
+    color: white;
+    margin: 0px 12px;
+    list-style: none;
+}
+.search {
+    width: 25px;
+}
+.first-sec {
+    height: 529px;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+.first-left-section {
+    /* margin-left: 33px; */
+    max-width: 40%;
+    /* text-align: center; */
+    color: white;
+
+}
+h1 {
+    font-size: 35px;
+    padding: 35px;
+}
+.watch {
+    font-family: 'Amazon Ember V2', sans-serif;
+    font-size: 1.5rem;
+    margin-left: 33px;
+}
+button {
+    width: 67%;
+    box-sizing: border-box;
+    padding: 14px 20px;
+    border-radius: 7px;
+    margin-left: 33px;
+    margin-top: 10px;
+    background-color: #09518b;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+.second-sec {
+    height: 529px;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg);
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+.second-left-section {
+    margin-left: 35px;
+    max-width: 50%;
+    color: white;
+}
+#movies {
+    font-size: 33px;
+
+    padding-top: 25px;
+}
+.acc {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    /* margin-left: 35px; */
+    margin-top: 18px;
+}
+.btn-sec {
+    width: 46%;
+    box-sizing: border-box;
+    padding: 14px 20px;
+    border-radius: 7px;
+    margin-left: 24px;
+    margin-top: 36px;
+    background-color: #09518b;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+.third-sec {
+display: flex;
+}
+.third-left-section {
+max-width: 50%;
+}
+.your {
+    margin-top: 32px;
+    font-size: 45px;
+    margin-left: 45px;
+}
+.first-para {
+    font-size: 26px;
+    margin-top: 12px;
+    margin-left: 45px;
+}
+.right-section {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    max-width: 552px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-items: flex-start;
+}
+ .linsg {
+    max-width: 100%;
+    object-fit: contain;
+} 
+.grid-items {
+    display: flex;
+    flex: 1 32%;
+    max-width: 177px;
+    padding: 0;
+    margin: 3px;
+    transition: box-shadow 0.2s ease-in-out;
+    z-index: 1;
+}
+.five-sec {
+    display: flex;
+    /* justify-content: end; */
+
+  height: 560px;
+     background-image:
+    linear-gradient(
+      to left,
+      #000 40%,
+      transparent 58%
+    ),
+    url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg);
+  background-position: left top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000; 
+}
+.five-heading {
+margin-top: 30px;
+font-size: 38px;
+    color: white;
+}
+.five-para {
+    width: 95%;
+    font-size: 23px;
+    margin-top: 30px;
+    color: white;
+}
+.five-left{
+    max-width: 50%; 
+    margin-left: 50%;   
+}
+.get-start {
+    width: 280px;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+    margin-top: 33px;
+    background-color: #09518b;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+.footer {
+    height: 180px;
+    background-color: rgb(44, 36, 36);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(36, 25, 25, 0.902);
+}
+
+footer a {
+    text-decoration: none;
+color: rgb(14, 148, 232);
+}
+.footer-para {
+    margin-top: 12px;
+    color: white;
+}

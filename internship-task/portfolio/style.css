@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.slidbar {
+background-color: red;
+width: 10vw;
+}
+.slidbar nav {
+    padding: 72px;
+}
+.main {
+    width: 82%;
+    background-color: yellow;
+}
+.container {
+    display: flex;
+
+}
+ul li {
+   
+}

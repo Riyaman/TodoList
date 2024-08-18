@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Welcome to the techno world</title>
+</head>
+
+<body id="content">
+    <nav class="navbar background h-nav-resp">
+        <div class="logo"><img src="img.jpg" alt="logo"></div>
+        <ul class="nav-list v-class-resp">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#Contact">Contact Us</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button onclick="performSearch()" class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <section class="background firstSection" id="home">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">The future of technology is hear</p>
+                <p class="text-small"> in this world The future of technology is hear</p>
+                <div class="buttons">
+                    <button class="btn">Subscribe</button>
+                    <button class="btn">Watch Video</button>
+                </div>
+            </div>
+            <div class="secondHalf">
+                <img src="aiimg.png" alt="img">
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="paras">
+            <p class="sectiontag text-big"> Brandon Sanderson Is Your God</p>
+            <p class="sectionSubTag text-small">Originally published March 2023: He’s the biggest fantasy writer in the
+                world. He’s also very Mormon. These things are profoundly related.</p>
+        </div>
+        <div class="thumbnail">
+            <img class="imgFluid" src="Sanderson.webp" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>Welcome to Techno world! We are passionate about delivering the best content and services to our audience. Our team is dedicated to exploring the future of technology and bringing you the latest updates and insights.</p>
+            <p>Our mission is to inform, educate, and inspire our readers with high-quality articles, reviews, and features. Whether you are a tech enthusiast or a casual reader, we aim to provide something valuable for everyone.</p>
+            <p>Thank you for visiting our site. We hope you enjoy your time here and find our content enriching and engaging.</p>
+        </div>
+    </section>
+    <section class="section left" id="services">
+        <div class="paras">
+            <p class="sectiontag text-big"> Perplexity Plagiarized Our Story About How Perplexity Is a Bullshit Machine
+            </p>
+            <p class="sectionSubTag text-small">Experts aren’t unanimous about whether the AI-powered search startup’s
+                practices could expose it to legal claims ranging from infringement to defamation—but some say
+                plaintiffs would have strong cases.</p>
+        </div>
+        <div class="thumbnail">
+            <img class="imgFluid" src="ai.png" alt="">
+        </div>
+    </section>
+    <section class="section">
+        <div class="paras">
+            <p class="sectiontag text-big">
+                Get Clicky With Our Favorite Custom Mechanical Keyboards
+                HENRI ROBBINS</p>
+            <p class="sectionSubTag text-small">We've typed thousands of words to help you find the ideal clacky—or
+                thocky—mechanical keyboard for your refined taste.</p>
+        </div>
+        <div class="thumbnail">
+            <img class="imgFluid" src="keybord.jpg" alt="">
+        </div>
+    </section>
+    <section class="Contact " id="Contact">
+        <h2 class="text-center">Contact Us</h2>
+        <form class="form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="6d3c5c5c-f739-4e15-8e40-2e1a2c6ccc74">
+            <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            <input type="text" name="phone" id="phone" placeholder="Enter your phone" required>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+            <textarea name="message" id="text" placeholder="Enter message hear" required></textarea>
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            <button class="btn btn-dark" type="submit">Submit</button>
+        </form>
+    </section>
+    <footer class="background">
+        <p class="text-footer">
+            www.TechnoWorld.com Copyright &copy; 2024- all right reserved
+        </p>
+    </footer>
+    <script src="resp.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

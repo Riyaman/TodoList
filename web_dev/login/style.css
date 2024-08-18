@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 700px;
+}
+.container {
+    height: 400px;
+    width: 350px;
+    display: inline-block;
+    margin-top: 44px;
+    padding: 15px;
+    margin-left: 44px;
+    justify-content: center;
+    border: 1px solid rgba(150, 149, 149, 0.62);
+}
+#heading {
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    padding: 35px;
+}
+
+.info {
+   
+    background-color: rgba(249, 247, 240, 0.528);
+    height: 35px;
+    width: 272px;
+    margin-left: 33px;
+    margin-bottom: 6px;
+    border: 1px solid rgba(128, 128, 128, 0.838);
+    border-radius: 3px;
+}
+hr {
+    margin-top: 33px;
+    width: 271px;
+    margin-left: 33px;
+}
+
+#Or {
+    text-align: center;
+    width: 63px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 137px;
+    margin-top:-10px ;
+    position: absolute;
+}
+button {
+    background-color: rgba(0, 149, 246);
+    color: white;
+    padding: 7px;
+    border: none;
+    width: 272px;
+    height: 37px;
+    border-radius: 10px;
+    margin-left: 33px;
+    margin-top: 11px;
+
+}
+#fa {
+    height: 15px;
+    background-color: rgb(7, 7, 66);
+    color: white;
+    text-align: center;
+    width: 15px;
+}
+
+#loginwithfa {
+    cursor: pointer;
+    font-size: 17px;
+    color:  rgb(7, 7, 66);
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 23px;
+}
+#forgotpas {
+    cursor: pointer;
+    color:  rgb(7, 7, 66);
+    text-align: center;
+    margin-top: 26px;
+    margin-bottom: 22px;
+}
+.cont {
+    height: 66px;
+    width: 380px;
+    /* display: inline-block; */
+    margin-top: 11px;
+    margin-left: 44px;
+    
+    border: 1px solid rgba(150, 149, 149, 0.62);
+}
+.noac {
+    text-align: center;
+    margin-top: 23px;
+
+}
+#link {
+    color:  rgba(0, 149, 246);
+    text-decoration: none;
+}
+#get {
+    margin-bottom: 13px;
+    text-align: center;
+}
+#play {
+    cursor: pointer;
+    margin-left: 97px;
+    width: 109px;
+}
+#mir {
+   cursor: pointer;
+    width: 91px;
+}
+.box {
+    height: 66px;
+    width: 380px;
+    /* display: inline-block; */
+    margin-top: 11px;
+    margin-left: 44px;
+}

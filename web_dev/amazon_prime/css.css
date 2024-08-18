@@ -1,0 +1,35 @@
+
+#dv-6TOiVPR6w {
+    background-image:
+      linear-gradient(
+        to left,
+        #000 40%,
+        transparent 58%
+      ),
+      url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg);
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+  }
+  #dv-6TOiVPR6w .mobile-bg-placeholder {
+    background-image: none;
+    background-repeat: no-repeat;
+  }
+
+  @media all and (max-width: 1024px) {
+    #dv-6TOiVPR6w {
+      background-size: cover;
+    }
+  }
+
+  @media all and (max-width: 1024px) and (orientation: portrait) {
+    #dv-6TOiVPR6w {
+      background-color: #000;
+      background-image: none;
+    }
+    #dv-6TOiVPR6w .mobile-bg-placeholder {
+      background-image:  linear-gradient(to top, #000 0%, transparent 20%),
+        url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left._SX1440_CR0,0,865,675_QL80_AC_FP_.jpg);
+    }
+  }

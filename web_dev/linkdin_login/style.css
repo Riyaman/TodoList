@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(246, 244, 239, 0.788);
+}
+.container {
+display: block;
+justify-content: center;
+}
+
+#logo {
+  margin-left: 33px;
+width: 135px;
+}
+h1 {
+    text-align: center !important;
+}
+.cart {
+margin-top: 12px;
+    margin-left: 413px;
+    background-color: white;
+    border-radius: 10px;
+    height: 516px;
+    width: 440px;
+}
+.root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    margin-left: 25px;
+    width: 500px;
+    margin-top: 24px;
+}
+.info {
+    margin-left: 25px;
+   margin-top: 7px;
+    width: 383px;
+    height: 27px;
+}
+#textsize {
+    margin-left: 22px;
+   margin-top: 44px;
+    font-size: 14px;
+}
+#userag {
+    margin-left: 22px;
+    font-size: 14px;
+}
+a {
+    color: rgba(138, 25, 243, 0.948);
+text-decoration: none;
+}
+.btn {
+    color: white;
+    background-color: rgb(12, 69, 213);
+    border: none;
+    padding: 15px;
+    margin-top: 22px;
+    width: 383px;
+    height: 49px;
+    border-radius: 44px;
+}
+hr {
+    margin-top: 33px;
+    width: 374px;
+    margin-left: 33px;
+}
+
+#Or {
+    text-align: center;
+    width: 63px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 196px;
+    margin-top:-10px ;
+    position: absolute;
+}
+#btn {
+    /* text-align: center; */
+    background-color: white;
+    border: none;
+    padding: 15px;
+    margin-top: 37px;
+    margin-left: 33px;
+    width: 383px;
+    height: 49px;
+    border: 1px solid gray;
+    border-radius: 44px;
+}
+#google {
+    width: 26px;
+    /* margin-top: 12px; */
+    margin-right: 73px;
+}
+#signin {
+margin-top: 33px;
+}
+#look{
+    margin-top: 21px;
+}
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: white;
+    margin-top: 21px;
+}
+#f {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer {
+    color: gray;
+    font-size: 14px;
+}

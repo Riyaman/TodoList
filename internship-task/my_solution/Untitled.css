@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+.logo {
+    margin-left: 45px;
+    width: 169px;
+}
+nav {
+
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+.login-btn {
+    color: #ff4b4b;
+    text-decoration: none;
+    margin-right: 33px;
+    font-weight: 400;
+}
+.btn-class {
+    display: flex;
+    align-items: center;
+}
+#people {
+    margin-left: -300px;
+    margin-right: 16px;
+    width: 26px;
+height: 26px;
+}
+.btn {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin-right: 44px;
+    font-weight: 460;
+    color: white;
+    background-color: black;
+    border: 2px solid rgba(247, 244, 244, 0.854);
+    border-radius: 5px;
+}
+.content {
+    color: white;
+    margin-top: 10%;
+    margin-left: 5%;
+    max-width: 600px;
+}
+content h1 {
+    font-size: 700;
+
+}
+.content p {
+    font-size: 20px;
+    margin: 10px 0 30px;
+    animation-delay: 0.5s;
+}
+.anim {
+opacity: 0;
+transform: translateY(30px);
+animation: moveup 0.5s linear forwards;
+}
+@keyframes moveup {
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

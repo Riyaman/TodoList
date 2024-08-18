@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="Sidebar">
+            <li onclick="hideSidebar()"><a href="#" id="hidbr"  ><svg    class="hidbr"                 xmlns="http://www.w3.org/2000/svg" height="27" viewBox="0 -960 960 960" width="27"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li><a class="smallscreen" href="">Home</a></li>
+            <li><a class="smallscreen"  href="">Menu</a></li>
+            <li><a class="smallscreen"  href="">Banquet</a></li>
+            <li><a class="smallscreen"  href="">Gallery</a></li>
+            <li><a class="smallscreen"  href="">Catering</a></li>
+            <li><a class="smallscreen"  href="">Contact</a></li>  
+        </ul>
+        <ul>
+            <li><a href=""  class="logo"><strong>  RESTURANT</strong></a></li>
+            <li><a class="hideOnmobile" href="">Home</a></li>
+            <li><a class="hideOnmobile" href="">Menu</a></li>
+            <li><a class="hideOnmobile" href="">Banquet</a></li>
+            <li><a class="hideOnmobile" href="">Gallery</a></li>
+            <li><a class="hideOnmobile" href="">Catering</a></li>
+            <li><a class="hideOnmobile" href="">Contact</a></li>  
+            <li class="menu-button" onclick="showSidebar()"><a href="#"  id="shobr" ><svg   class="shobr" xmlns="http://www.w3.org/2000/svg" height="27" viewBox="0 -960 960 960" width="27"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <section> <div class="slider-container">
+        <div class="slider">
+            <div class="slide"><img src="https://source.unsplash.com/1200x900/?nature,water" alt="Image 1"></div>
+            <div class="slide"><img src="https://source.unsplash.com/1200x900/?nature,water " alt="Image 2"></div>
+            <div class="slide"><img src="https://source.unsplash.com/1200x900/?nature,water"  alt="Image 3"></div>
+            <div class="slide"><img src="https://source.unsplash.com/1200x900/?nature,water" alt="Image 1"></div>
+            <div class="slide"><img src="https://source.unsplash.com/1200x900/?nature,water" alt="Image 2"></div>
+            <div class="slide"><img src= "https://source.unsplash.com/1200x900/?nature,water" alt="Image 3"></div>
+            <div class="slide"><img src="https://source.unsplash.com/1200x900/?nature,water" alt="Image 2"></div>
+            <div class="slide"><img src="https://source.unsplash.com/1200x900/?nature,water" alt="Image 3"></div>
+            <div class="slide"><img src= "https://source.unsplash.com/1200x900/?nature,water" alt="Image 3"></div>
+            <div class="slide"><img src="https://source.unsplash.com/1200x900/?nature,water" alt="Image 2">
+            </div>
+
+
+        </div>
+        <div class="arrow left" onclick="moveSlider('left')">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M9 17l-5-5 5-5v10z"/>
+            </svg>
+        </div>
+        <div class="arrow right" onclick="moveSlider('right')">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M15 17l5-5-5-5v10z"/>
+            </svg>
+        </div>
+    </div></section>
+    <script src="script.js"></script>
+</body>
+</html>

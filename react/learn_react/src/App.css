@@ -1,0 +1,21 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(246, 246, 246);
+}
+.box {
+  text-align: center;
+  border: 1px solid black;
+  height: 410px;
+  width: 333px;
+  margin-top: 12px;
+  margin-bottom: 12;
+  /* margin-left: 33px; */
+  background-color: rgb(216, 216, 243);
+  cursor: pointer;
+}
+.contact-card{
+  margin-top: 22px;
+}
