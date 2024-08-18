@@ -1,6 +1,12 @@
-### npm create vite@latest
-### npm install -D tailwindcss postcss autoprefixer
-### npx tailwindcss init -p
+```
+ npm create vite@latest
+ ```
+```
+npm install -D tailwindcss postcss autoprefixer
+```
+```
+npx tailwindcss init -p
+```
 # Edit Index.css ♥
 ```
 @tailwind base;
@@ -42,9 +48,11 @@ export default defineConfig({
 Add the following code to the vite.config.ts so your app can resolve paths without error
 ```
  (so you can import "path" without error)
-npm i -D @types/node
+ npm i -D @types/node
 ```
-### npx shadcn-ui@latest init
+```
+npx shadcn-ui@latest init
+```
 ```
 npx shadcn-ui@latest add button
 
