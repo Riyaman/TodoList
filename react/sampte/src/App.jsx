@@ -3,9 +3,6 @@ import { Button } from './components/ui/button'
 import './index.css'
 function App() { 
   const [color, setColor] = useState("violet")
-  const handleChange = (e) =>{
-
-  }
   return (
       <>
 <div className='w-full h-screen' style={{backgroundColor: color}}>
