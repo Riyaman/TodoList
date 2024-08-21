@@ -3,7 +3,6 @@ import { useState } from 'react'
 import Navbar from './components/Navbar'
 import { useSelector, useDispatch } from 'react-redux'
 import { decrement, increment } from './redux/counter/counterSlice'
-// import counterReducer from './redux/counter/counterSlice'
 import './App.css'
 
 function App() {
