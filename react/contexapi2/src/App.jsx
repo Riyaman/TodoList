@@ -1,14 +1,40 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Button } from './components/ui/button'
+import { ThemeProvider } from './context/Theme'
+import ThemeButton from './components/ThemeButton'
+import Card from './components/ui/Card'
 
 function App() {
- 
+ const [themeMode, setThemeMode] = useState("light")
 
+ const lightTheme = () =>{
+  setThemeMode("light")
+ }
+
+ const darkTheme = () =>{
+  setThemeMode("dark")
+ }
+
+ useEffect(()=>{
+  document.querySelector('html').classList.remove("light", "dark")
+  document.querySelector('html').classList.add(themeMode)
+ }, [themeMode])
   return (
-    <>
-    <h1 className='bg-slate-600'>welcome in React</h1>
-    <Button>Sub</Button>
-    </>
+    
+    <ThemeProvider value={{themeMode, lightTheme, darkTheme}}>
+
+    <div className='flex flex-wrap min-h-screen items-center'>
+      <div className='w-full'>
+      <div className='w-full max-w-sm mx-auto flex justify-end mb-4'>
+<ThemeButton/>
+      </div>
+    <div className='w-full max-w-sm mx-auto flex justify-end mb-4'>
+      <Card/>
+      </div>
+      </div>
+    </div>
+    </ThemeProvider>
+    
   )
 }
 
